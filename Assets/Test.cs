@@ -26,8 +26,8 @@ public class Test : MonoBehaviour {
         int[] array = { 10, 20, 30, 40, 50 };
 
         // 配列の中身を順に表示
-        for (int i = array.Length; i > 0; i--) {
-            Debug.Log(array[i - 1]);
+		for (int i = 0; i < array.Length; i++) {
+            Debug.Log(array[i]);
         }
 
         // Bossクラスを呼び出し、11回繰り返す
